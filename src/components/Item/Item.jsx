@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom'
               </Card.Body>
               <Card.Footer className="card-footer">
                 <Link to={`/item/${id}`}>
-                  <Button variant="outline-warning text-secondary">Ver Detalle</Button>
+                  <Button variant="outline-info text-secondary">Ver Detalle</Button>
                 </Link>
                 
               </Card.Footer>
