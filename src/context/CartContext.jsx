@@ -31,10 +31,10 @@ export const CartProvider = ({children}) => {
         setCartList([])
     }   
 
-    //cantidad total de la compra
+    //cantidad total de compra
     const totalBuys = () => cartList.reduce((total, prod) => total + prod.price * prod.quantity, 0) 
     
-    //cantidad total de productos en carrito
+    //cantidad de productos en carrito
     const totalInCart = () => cartList.reduce( (total, prod) => total + prod.quantity, 0) 
 
     return(
@@ -51,5 +51,6 @@ export const CartProvider = ({children}) => {
         </CartContext.Provider>
     )
 }
+
 
 
