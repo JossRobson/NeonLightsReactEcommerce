@@ -21,12 +21,12 @@ function ItemCount( { initial, stock, onAdd }) {
    
     <Container className='py-3'>
          <Container className='d-flex py-1'>
-            <Button variant='warning border-secondary' onClick={subtract} > - </Button>
+            <Button variant='info border-secondary' onClick={subtract} > - </Button>
             <h4 className='px-3 '> {quantity} </h4>
-            <Button variant='warning border-secondary' onClick={add} > + </Button>
+            <Button variant='info border-secondary' onClick={add} > + </Button>
          </Container>
         
-         <Button variant="warning border-secondary my-3" onClick={ () => onAdd(quantity)} disabled = {!stock}>Agregar al carrito</Button>
+         <Button variant="info border-secondary my-3" onClick={ () => onAdd(quantity)} disabled = {!stock}>Agregar al carrito</Button>
     </Container>
   )
 }
