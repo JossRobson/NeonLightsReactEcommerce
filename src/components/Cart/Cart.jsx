@@ -21,8 +21,8 @@ function Cart( { greeting })  {
     if (totalInCart() === 0 ) {
         return(
             <div className='text-center p-5 m-5'>
-                <h1 className=' display-5 fw-semibold my-5 text-danger'>No hay productos en el carrito</h1>
-                <Link to='/' className='btn btn-outline-danger fw-semibold fs-5 m-5'>Realizar Compra</Link>
+                <h1 className=' display-5 fw-semibold my-5 text-dark'>Su carrito está vacio</h1>
+                <Link to='/' className='btn btn-outline-info fw-semibold fs-5 m-5'>Realizar Compra</Link>
             </div>
         )
     }
@@ -42,7 +42,7 @@ function Cart( { greeting })  {
 
                 <div className="carrito__acciones--derecha d-sm-flex gap-5">
                     <p className='carrito__acciones--total'>Total a pagar: $ { totalBuys() }</p>
-                    <Link className='btn btn-outline-success' to='/ckeckout' onClick={handleCheckout}> Comprar</Link>
+                    <Link className='btn btn-outline-info' to='/ckeckout' onClick={handleCheckout}> Comprar</Link>
                     
                 </div>
             </div>
