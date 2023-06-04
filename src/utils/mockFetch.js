@@ -1,24 +1,24 @@
 export const getProductos = (id) => {
     return new Promise((res, rej) => {
-      res(productos);
+      res(products);
     });
   };
 
 export const getProductoById = (id) => {
     return new Promise( (res, rej ) =>{
-      res(productos.find( prod => prod.id === id))
+      res(products.find( prod => prod.id === id))
     })
   }
 
 export const getProductByCategory = (category) => {
     return new Promise ( (res, rej) => {
-      res( productos.filter(prod => prod.categoria === category))
+      res( products.filter(prod => prod.categoria === category))
     })
   }
 
 
 
-let productos = [
+let products = [
   {id: '1',
    precio: 1000, 
    titulo: "Lentes Balenciaga", 
@@ -63,7 +63,7 @@ let productos = [
     id: '6',
     precio: 1600,
     titulo: "Lentes Lights",
-    categoria: "2x1",
+    categoria: "Sale",
     stock: 20,
     img: "/public/assets/Lights.jpg",
   },
@@ -72,7 +72,7 @@ let productos = [
     id: '7',
     precio: 1100,
     titulo: "Lentes Premiere",
-    categoria: "2x1",
+    categoria: "Sale",
     stock: 20,
     img: "/public/assets/Premiere.jpg",
   },
@@ -80,30 +80,40 @@ let productos = [
     id: '8',
     precio: 1800,
     titulo: "Lentes Render",
-    categoria: "2x1",
+    categoria: "Sale",
     stock: 20,
     img: "/public/assets/Render.jpg",
   },
 
   {
     id: '9',
-    precio: 9200,
+    precio: 2200,
     titulo: "Lentes Saint",
-    categoria: "2x1",
+    categoria: "Sale",
     stock: 20,
     img: "/public/assets/Saint.jpg",
   },
 
   {
     id: '10',
-    precio: 8100,
+    precio: 3100,
     titulo: "Lentes Yellow",
-    categoria: "2x1",
+    categoria: "Sale",
     stock: 20,
     img: "/public/assets/Yellow.jpg",
+  },
+
+  {
+    id: '11',
+    precio: 31500,
+    titulo: "Lentes Prestige",
+    categoria: "Sale",
+    stock: 20,
+    img: "/public/assets/Prestige.jpg",
   },
 
   
 ];
 
+//HAY MÁS DIRECTAMENTE AGREGADOS EN FIREBASE
 
