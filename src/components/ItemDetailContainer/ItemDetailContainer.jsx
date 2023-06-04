@@ -5,9 +5,6 @@ import ItemDetail from '../ItemDitail/ItemDetail'
 import { doc, getDoc, getFirestore } from 'firebase/firestore'
 
 
-
-
-
 function ItemDetailContainer({greeting}) {
 
     const [ product, setProduct ] = useState(null)
@@ -21,19 +18,19 @@ function ItemDetailContainer({greeting}) {
         
         const dbFirestore = getFirestore()
         
-        const queryDoc = doc(dbFirestore, 'Productos', prodId)
+        const queryDoc = doc(dbFirestore, 'products', prodId)
         
         getDoc(queryDoc)
           .then(resp => setProduct(({ id: resp.id, ...resp.data()})))
           .catch( (err) => console.log(err))
-          .finally(() => setIsLoading(false))
+          .finally( () => setIsLoading(false))
       }, 1000)  
     }, [prodId])
   return (
-    <Container>
-        <h1 className='py-5 text-center'>{ greeting }</h1>
+    <Container className='h-100 mb-5 pb-5'>
+        <h1 className='my-4 text-center'>{ greeting }</h1>
         { isLoading 
-        ? <div className='text-center'><Spinner animation="border" variant="warning" /></div> 
+        ? <div className='text-center vh-100'><Spinner  animation="border" variant="warning" /></div> 
         : <ItemDetail {...product}/> }  
     </Container>
   )
