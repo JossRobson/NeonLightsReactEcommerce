@@ -51,7 +51,7 @@ function Checkout({ greeting }) {
                 <h1 >Orden ID: </h1>
                 <p className=' fs-4 fw-semibold my-5 text-success'>{ ordenId}</p>
                 <p className=' fs-3'>Gracias por su compra!!</p>
-                <Link className='btn btn-warning fw-semibold text-dark my-5' to='/'>Volver al Inicio</Link>
+                <Link className='btn btn-info fw-semibold text-dark my-5' to='/'>Volver al Inicio</Link>
           </div>)
         : (<div className='d-flex flex-column text-center mx-5 px-5 gap-2 w-75'>
             <h1 className='m-5'>{greeting}</h1>        
