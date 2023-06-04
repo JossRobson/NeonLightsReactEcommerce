@@ -23,10 +23,10 @@ function ItemDetail({id, img, title, price, category}) {
   
 
   return (
-    <Card className='container d-flex flex-md-row py-3 w-75'>
+    <Card className='container d-flex flex-md-row w-75 mb-4'>
          
-        <Card.Img variant='center' src={img} alt="imagen del producto" style={ {width: '15rem', height: '15rem'} }/>
-        <Container className=''>
+        <Card.Img className='mt-2 mb-2 mt-md-5 mt-lg-2' variant='center' src={img} alt="imagen del producto" style={ {width: 'auto', height: '15rem'} }/>
+        <Container className=' mt-md-2 mt-lg-3'>
           <Card.Title className='fs-4'>{category} {title}</Card.Title>
           <Card.Text className='fs-5'>Precio: ${price}</Card.Text>
             <Card.Text className=''> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -38,8 +38,8 @@ function ItemDetail({id, img, title, price, category}) {
               isCant
               ? <ItemCount initial={1} stock={10} onAdd={handleOnAdd}/>
               : <>
-                  <Link to='/cart' className='btn btn-outline-danger m-3'>Ir al Carrito</Link>
-                  <Link to='/'className='btn btn-outline-success'>Seguir Comprando</Link>
+                  <Link to='/cart' className='btn btn-outline-secondary m-3'>Ir al Carrito</Link>
+                  <Link to='/'className='btn btn-outline-info mb-3 mb-lg-0'>Continuar Comprando</Link>
                 </>
             }
             
