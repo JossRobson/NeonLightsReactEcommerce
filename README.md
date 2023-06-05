@@ -54,12 +54,11 @@ En este proyecto se aplicaron herramientas como:
 
 <h2> <img src='./imgReadme/react2.jpg' width='3%'> Seccion Orden Generada y finalizacion de la compra</h2>
 ➕ Una vez que el cliente completa el formulario correctamente se genera la orden de la compra, mostrando el numero de orden y un        boton que deriva nuevamente al inicio a la seccion de los productos. 
-<img src='./imgReadme/tiket.png'><br>
+
 
 ➕ La compra es enviada a la base de datos de firebase con los datos del cliente y los productos que agrego al carrito.
-<img src='./imgReadme/orden.png'><br>
 
-<img src='./imgReadme/react1.jpg' align='center'><br> 
+<img src='./imgReadme/React1.png' align='center'><br> 
 # NeonLightsReactEcommerce
 # NeonLightsReactEcommerce
  
