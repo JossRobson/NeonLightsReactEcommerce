@@ -56,7 +56,8 @@ En este proyecto se aplicaron herramientas como:
 ➕ Una vez que el cliente completa el formulario correctamente se genera la orden de la compra, mostrando el numero de orden y un        boton que deriva nuevamente al inicio a la seccion de los productos. 
 
 
-➕ La compra se envía a la base de datos de firebase con los datos del cliente y los productos que agregó al carrito.
+➕ La compra se envía a la base de datos de firebase con los datos del cliente y los productos que agregó al carrito. <br>
+
 <img src='./imgReadme/Captura3.png' >
 
 <img src='./imgReadme/React1.png' align='center'><br> 
