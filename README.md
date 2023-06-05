@@ -2,7 +2,7 @@
 
 <br>
 <h1>Proyecto Final - Curso React Vite CODERHOUSE Comision 39660 </h1>
-alumno : Guido Gutierrez
+Alumno : Guido Gutierrez
 
 En este proyecto se aplicaron herramientas como:
 
