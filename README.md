@@ -44,37 +44,37 @@ En este proyecto se aplicaron herramientas como:
 <img src='./imgReadme/Captura2.png' >
 
 
-<h2> Seccion detalles del producto </h2>
+<h2> Sección detalles del producto </h2>
 ➕ Aqui podemos ver mas informacion del producto, y encontramos que podemos incrementar o decrementar la 
 cantidad a comprar y luego agregar el producto a nuestro carrito de compras, llevandonos a una nueva vista con otras opciones.
 
 <img src='./imgReadme/Captura8.png' >
    
- <h2> Seccion Ir al Carrito o Seguir Comprando </h2>
+ <h2> Sección Ir al Carrito o Seguir Comprando </h2>
 
-➕ Podemos ir a nuestro carrito de compras cliqueando el boton "ir al carrito" de la card o por "icono del carrito" que ya tiene la cantidad  de productos agrupados, o volver al inicio por medio del boton "seguir comprando" y elijir por categoria en la seccion de menu de la      barra de navegacion para seguir comprando.
+➕ Podemos ir a nuestro carrito de compras cliqueando el boton "ir al carrito" o por el "icono del carrito" que ya tiene la cantidad  de productos agrupados, o volver al inicio por medio del boton "seguir comprando" y elegir por categoria en la seccion de menu de la barra de navegacion.
 
-<h2> Seccion Carrito de Compras </h2>
+<h2> Sección Carrito de Compras </h2>
 ➕ Esta seccion posee toda la informacion de los productos agrgados con el sub total de la compra y el total, con un boton que "elimina por item" o boton de "vaciar el carrito" 
 
 <img src='./imgReadme/Captura7.png' >➕
 
 Pero si el carrito se encuentra vacio se muestra un texto informando al comprador y con un boton que lleva a comprar. Tambien consta de  boton de "Checkout" que conforme a la compra dirige a un formulario.
 
- <h2> Seccion Formulario </h2>
-➕ En esta seccion es para llenar los datos del cliente mediante un formulario el cual valida los campos que no esten vacios.
+ <h2> Sección Formulario </h2>
+➕ Esta seccion es para llenar datos del cliente, mediante un formulario, el cual valida los campos que no esten vacios.
 <br>
-➕ Tambien valida que confirme el email y que sea correcto de lo contrario informa que debe ingresarlo bien.
-➕ Y de ingresar todo correctamente genera la orden de la compra.
+➕ Tambien verifica confirmación de email y de no ser correcto informa que debe reingresarlo.
+➕ Luego genera la orden de la compra.
 
 <img src='./imgReadme/Captura6.png' >
 
 
-<h2> Seccion Orden Generada y finalizacion de la compra</h2>
-➕ Una vez que el cliente completa el formulario correctamente se genera la orden de la compra, mostrando el numero de orden y un        boton que deriva nuevamente al inicio a la seccion de los productos. 
+<h2> Sección orden generada y final de compra</h2>
+➕ Una vez que el cliente complete el formulario correctamente se generara la orden de compra, mostrando numero de orden y un boton que deriva nuevamente al inicio de la pagina. 
 
 
-➕ La compra se envía a la base de datos de firebase con los datos del cliente y los productos que agregó al carrito. <br>
+➕ La compra se envía a la base de datos de firebase con información del cliente y productos agregados al carrito. <br>
 
 <img src='./imgReadme/Captura3.png' >
 
