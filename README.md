@@ -30,17 +30,17 @@ En este proyecto se aplicaron herramientas como:
 <h2> Descripcion del Proyecto </h2>
 
 ➕ Consiste en una Ecommerce de venta de lentes de sol, con diferentes categorias a elejir,
-    en la seccion inicio se pueden ver las tarjetas con la categoria, nombre del producto, precio y un 
-"boton de detalle" que deriva a otra vista.
+ en la seccion inicio se pueden ver las tarjetas con la categoria, nombre del producto, precio y un 
+ "boton de detalle" que deriva a otra vista.
 ➕ Y todo proviniente de la base de datos de Firebase.
 
 <h2> Seccion detalle del producto </h2>
 ➕ Aqui podemos ver mas informacion del producto, y encontramos que podemos incrementar o decrementar la 
-   cantidad a comprar y luego agregar el producto a nuestro carrito de compras, llevandonos a una nueva vista con otras opciones.
+cantidad a comprar y luego agregar el producto a nuestro carrito de compras, llevandonos a una nueva vista con otras opciones.
    
  <h2> Seccion Ir al Carrito o Seguir Comprando </h2>
 
-➕ Podemos ir a nuestro carrito de compras cliqueando el boton "ir al carrito" de la card o por "icono del carrito" que ya tiene la cantidad de productos agrupados, o volver al inicio por medio del boton "seguir comprando" y elijir por categoria en la seccion de menu de la barra de navegacion para seguir comprando.
+➕ Podemos ir a nuestro carrito de compras cliqueando el boton "ir al carrito" de la card o por "icono del carrito" que ya tiene la cantidad  de productos agrupados, o volver al inicio por medio del boton "seguir comprando" y elijir por categoria en la seccion de menu de la      barra de navegacion para seguir comprando.
 
 <h2> Seccion Carrito de Compras </h2>
 ➕ Esta seccion posee toda la informacion de los productos agrgados con el sub total de la compra y el total, con un boton que "elimina por item" o boton de "vaciar el carrito" 
