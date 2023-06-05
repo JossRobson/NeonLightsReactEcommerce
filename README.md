@@ -83,8 +83,8 @@ Pero si el carrito se encuentra vacio se muestra un texto informando al comprado
 
 
 
-Datos de firebase
 
 
-<img src='./imgReadme/Captura1.png' >
+
+
 
