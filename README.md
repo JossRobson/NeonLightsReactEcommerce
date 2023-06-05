@@ -83,7 +83,7 @@ Pero si el carrito se encuentra vacio se muestra un texto informando al comprado
 
 
 
-Las siguientes imagenes son de firebase (productos y sistema de registro de ventas)
+Datos de firebase
 
 
 <img src='./imgReadme/Captura1.png' >
