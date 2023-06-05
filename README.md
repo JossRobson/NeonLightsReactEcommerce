@@ -28,7 +28,7 @@ En este proyecto se aplicaron herramientas como:
 
 <h2> Descripcion del Proyecto </h2>
 
-➕ Consiste en una Ecommerce de venta de lentes de sol, con diferentes categorias a elejir,
+➕ Se trata de una Ecommerce de venta de lentes de sol, con diferentes categorias a elejir,
  en la seccion inicio se pueden ver las tarjetas con la categoria, nombre del producto, precio y un 
  "boton de detalle" que deriva a otra vista. <br>
  
