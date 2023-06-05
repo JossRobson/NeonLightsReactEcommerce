@@ -48,7 +48,7 @@ En este proyecto se aplicaron herramientas como:
 ➕ Aqui podemos ver mas informacion del producto, y encontramos que podemos incrementar o decrementar la 
 cantidad a comprar y luego agregar el producto a nuestro carrito de compras, llevandonos a una nueva vista con otras opciones.
 
-<img src='./imgReadme/Captura6.png' >
+<img src='./imgReadme/Captura8.png' >
    
  <h2> Seccion Ir al Carrito o Seguir Comprando </h2>
 
@@ -56,7 +56,10 @@ cantidad a comprar y luego agregar el producto a nuestro carrito de compras, lle
 
 <h2> Seccion Carrito de Compras </h2>
 ➕ Esta seccion posee toda la informacion de los productos agrgados con el sub total de la compra y el total, con un boton que "elimina por item" o boton de "vaciar el carrito" 
-➕ Pero si el carrito se encuentra vacio se muestra un texto informando al comprador y con un boton que lleva a comprar. Tambien consta de  boton de "Checkout" que conforme a la compra dirige a un formulario.
+
+<img src='./imgReadme/Captura7.png' >➕
+
+Pero si el carrito se encuentra vacio se muestra un texto informando al comprador y con un boton que lleva a comprar. Tambien consta de  boton de "Checkout" que conforme a la compra dirige a un formulario.
 
  <h2> Seccion Formulario </h2>
 ➕ En esta seccion es para llenar los datos del cliente mediante un formulario el cual valida los campos que no esten vacios.
