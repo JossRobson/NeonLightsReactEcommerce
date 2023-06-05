@@ -39,7 +39,7 @@ En este proyecto se aplicaron herramientas como:
  
  
  
-➕ Y todo proviniente de la base de datos de Firebase. <br>
+➕ Todo proviniente de la base de datos de Firebase. <br>
 
 <img src='./imgReadme/Captura2.png' >
 
