@@ -25,7 +25,6 @@ En este proyecto se aplicaron herramientas como:
 ➖ Técnicas de rendering <br>
 ➖ Firebase <br>
 ➖ Optimizacion de codigo <br>
-➖ Documentar el Proyecto <br>
 
 <h2> Descripcion del Proyecto </h2>
 
