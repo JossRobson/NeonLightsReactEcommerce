@@ -67,6 +67,9 @@ Pero si el carrito se encuentra vacio se muestra un texto informando al comprado
 ➕ Tambien valida que confirme el email y que sea correcto de lo contrario informa que debe ingresarlo bien.
 ➕ Y de ingresar todo correctamente genera la orden de la compra.
 
+<img src='./imgReadme/Captura6.png' >
+
+
 <h2> Seccion Orden Generada y finalizacion de la compra</h2>
 ➕ Una vez que el cliente completa el formulario correctamente se genera la orden de la compra, mostrando el numero de orden y un        boton que deriva nuevamente al inicio a la seccion de los productos. 
 
