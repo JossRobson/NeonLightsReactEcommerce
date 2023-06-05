@@ -47,6 +47,8 @@ En este proyecto se aplicaron herramientas como:
 <h2> Seccion detalles del producto </h2>
 ➕ Aqui podemos ver mas informacion del producto, y encontramos que podemos incrementar o decrementar la 
 cantidad a comprar y luego agregar el producto a nuestro carrito de compras, llevandonos a una nueva vista con otras opciones.
+
+<img src='./imgReadme/Captura4.png' >
    
  <h2> Seccion Ir al Carrito o Seguir Comprando </h2>
 
