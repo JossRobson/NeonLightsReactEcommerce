@@ -52,15 +52,15 @@ En este proyecto se aplicaron herramientas como:
 ➕ Tambien valida que confirme el email y que sea correcto de lo contrario informa que debe ingresarlo bien.
 ➕ Y de ingresar todo correctamente genera la orden de la compra.
 
-<h2> <img src='./imgReadme/react2.jpg' width='3%'> Seccion Orden Generada y finalizacion de la compra</h2>
+<h2> Seccion Orden Generada y finalizacion de la compra</h2>
 ➕ Una vez que el cliente completa el formulario correctamente se genera la orden de la compra, mostrando el numero de orden y un        boton que deriva nuevamente al inicio a la seccion de los productos. 
 
 
-➕ La compra es enviada a la base de datos de firebase con los datos del cliente y los productos que agrego al carrito.
+➕ La compra se envía a la base de datos de firebase con los datos del cliente y los productos que agregó al carrito.
+<img src='./imgReadme/Captura3.png' >
 
 <img src='./imgReadme/React1.png' align='center'><br> 
-# NeonLightsReactEcommerce
-# NeonLightsReactEcommerce
+
  
 
 
