@@ -9,6 +9,7 @@ En este proyecto se aplicaron herramientas como:
 ✔️ Css <br>
 ✔️ GitHube <br>
 ✔️ Firebase - Firestore <br>
+✔️ Netlify
 
 <h2> NeonLights Ecommerce (React Js Vite) </h2>
 
@@ -79,7 +80,8 @@ Pero si el carrito se encuentra vacio se muestra un texto informando al comprado
 
 <img src='./imgReadme/React1.png' align='center'><br> 
 
- 
+
+(https://647e05b730c3bf26f14ee98d--grand-fairy-f354e7.netlify.app/) Nocarga las imagenes
 
 
 
