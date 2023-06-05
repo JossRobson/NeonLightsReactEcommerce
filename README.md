@@ -10,7 +10,7 @@ En este proyecto se aplicaron herramientas como:
 ✔️ GitHube <br>
 ✔️ Firebase - Firestore <br>
 
-<h2> 🧑‍💻 React Js Vite </h2>
+<h2> NeonLights Ecommerce (React Js Vite) </h2>
 
 ➖ Instalación y configuración del entorno <br>
 ➖ JSX y transpiling <br>
