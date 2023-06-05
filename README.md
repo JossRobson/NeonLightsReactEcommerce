@@ -38,7 +38,7 @@ En este proyecto se aplicaron herramientas como:
  
  
 ➕ Y todo proviniente de la base de datos de Firebase.
-<img src='./imgReadme/Captura1.png' >
+<img src='./imgReadme/Captura2.png' >
 
 
 <h2> Seccion detalles del producto </h2>
