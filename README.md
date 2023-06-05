@@ -1,8 +1,7 @@
 <img src='./imgReadme/React1.png' align='left'>
 
 <br>
-<h1>Proyecto Final - Curso React Vite CODERHOUSE Comision 39660 </h1>
-Alumno : Guido Gutierrez
+
 
 En este proyecto se aplicaron herramientas como:
 
